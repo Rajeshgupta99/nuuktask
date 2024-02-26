@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>page</title>
+    <style>
+      
+      .banner{
+        width: 200vh;
+        height: 70vh;
+        background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+        background-size: cover;
+        position: relative;
+        padding: 10px 20px;
+         }
+      .logo{
+        background-color: orange;
+        width: auto;
+        height: 20px;
+        padding: 30px;
+      }
+      nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+        padding: 10px 0;
+      }
+      nav ul{
+        list-style: none;
+        background-color: white;   
+        width: 100%;
+        text-align: left;
+        display:flex;
+        margin-right: 400px;
+        padding: 10px 20px;
+      }
+      nav ul li{
+       display: inline-block;
+      margin: 10px 20px;
+      }
+      nav ul li a{
+        color:black;
+      text-decoration: none;
+      }
+      .button{
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 10px 15px;
+        background-color: orange;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      .icons{
+        justify-content: space-evenly;
+        
+      }
+      .icons ul{
+        list-style: none;
+        justify-content: space-evenly;
+        background-color: black;
+        padding: 10px;
+        position:relative;
+        margin-left: 1430px;
+        margin-top: -16% ;
+        text-align: right;
+      }
+      .container1{
+        background-color: orangered;
+        display: flex;
+        height: max-content;
+        width: fit-content;
+        position: relative;
+        padding: 20px;
+        margin-left: 60%;
+        color: white;
+      }
+      .h2{
+        
+        margin-top: -100px;
+        margin-left: 50px;
+      }
+      .custom{
+        margin-left: 1300px;
+        margin-top: -60px;
+      }
+      .tools{
+        display: flex;
+      }
+      .w2{
+        margin-left: 920px;
+         margin-top: -100px;
+      }
+      .experience{
+        display: flex;
+        padding: 70px;
+      }
+      .experience h1{
+        text-align: center;
+        color: orange;
+        font-size: 50px;
+      }
+      .experience p{
+        font-size: 20px;
+        color: grey;
+      }
+      .banner2{
+        background-color: aliceblue;
+        padding-bottom: 20px;
+      }
+      .images1 ul{
+        display: flex;
+      }
+      .images1 ul li {
+        display: flex;
+            padding: 10px;
+      }
+      .images2 ul{
+        display: flex;
+      }
+      .images2 ul li{
+        display: flex;
+        padding: 10px;
+      }
+      .together{
+        background-image: url("https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg");
+        background-size: cover;
+        overflow: hidden;
+        position: relative;
+        width:200vh;
+       height: 50vh;
+       
+      }
+      .container{
+        background-color:rgb(238, 86, 44,0.85);
+        width: 200vh;
+        height: 50vh;
+        padding: 10px;
+        position: absolute;
+      }
+      .nav-link{
+        color: #919198;
+        font-size: 13px;
+        letter-spacing: 1px;
+        display: inline-block;
+        max-width: 100%;
+        text-decoration: none;
+        position: relative;
+        text-transform: uppercase;
+       }
+        .nav-link::after{
+        left:0;
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        background-color: hsla(0,0%,100%,0.3);
+        transition: .2s;
+        }
+        .nav-link:hover::after{
+            background-color: #e47312;
+        }
+        .nav-link{
+            overflow: hidden;
+        margin-left: 0px;
+        margin-top: 15px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        cursor: pointer;
+        }
+        .card{
+          width: 250px;
+          padding: 10px 20px;
+          position: relative;
+          }
+          
+        .icons1 ul{
+          list-style: none;
+          justify-content: space-evenly;
+          background-color: #e47312;
+          box-sizing: border-box;
+          padding: 10px;
+          text-align: right;
+          margin-left: 200px;
+        margin-top : -175px;
+          position: absolute;
+        }
+       .photo{
+        display: flex;
+        justify-content: center;
+       }
+       
+       .cards{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        margin-left: 50px;
+      padding: 20px;
+       }
+       .crds1{
+        display: flex;
+      margin-left: 600px;
+      margin-top: -450px;
+       }
+       .port{
+        position: relative;
+        padding: 10px 20px;
+        width: 460px;
+       }
+     .blogpost{
+      background-color: #e47312;
+      margin-top: -30px;
+      padding-left: 30px;
+      padding-bottom: 20px;
+      
+     }  
+     .cal ul{
+      list-style: none;
+      position: absolute;
+      justify-content: space-evenly;
+      margin-left: 358px;
+      margin-top: -500px;
+      background-color: #e47312;
+      padding: 20px;
+      height: 80px;
+      align-items: center;
+     }
+     .ports{
+      display: flex; 
+      }
+      .logos{
+        background-color: #e47312;
+      margin-left: 20px;
+      margin-right: 20px;
+      }
+      .logos ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .footer{
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 40px;
+        margin-right:40px; 
+        margin-top: -17px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+      .footer ul{
+        list-style: none;
+      }
+      .about ul li h2{
+        color: white;
+      }
+      .about ul li h3{
+        color: white;
+        width: 200px;
+        font-size: 20px;
+      }
+      .Service ul li h2{
+        color: white;
+      }
+      
+    </style>
+  </head>  
+<body>
+<div class="banner">
+  <nav>
+    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-white.png" class="logo">
+  <ul>
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">PROJECTS</a></li>
+    <li><a href="#">ABOUT</a></li>
+    <li><a href="#">SERVICES</a></li>
+    <li><a href="#">BLOG</a></li>
+    <li><a href="#">PAGES<img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/sort-down.svg" width="10px" height="10px"></a></li>
+   
+  <button class="button">GET FREE QUOTE</button>
+  </ul>
+  </nav>
+  <div class="content">
+  <h1 style="color: white; font-size: 50px;">YOU DREAM. WE<br>CREATE.</h1>
+  <p style="color: white;">We turn your ideas to reality, we don't stop until you're satisfied.</p>
+  <button class="button">GET FREE QUOTE</button>
+  <div class="icons">
+    <ul>
+   <li><a href="https://www.facebook.com/"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png" width="30px" height="30px"></a></li><br>
+   <li><a href="https://twitter.com/?lang=en-in"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png" width="30px" height="30px"></a></li><br>
+  <li><a href="https://www.linkedin.com/login"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png" width="30px" height="30px"></a></li><br>
+ <li><a href="https://www.instagram.com/?hl=en"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/instagram-logo.png" width="30px" height="30px"></a></li>
+</ul>
+  </div></div>
+  <br>
+  <div class="container1">
+    <div><ul type="none">
+    <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/phone.svg" width="30px" height="30px"></li>
+    <li>  <p> PHONE NUMBER</p></li>
+    <li> <p> 1-800-506-266</p></li>
+    <li> <p> 1-100-777-800</p></li>
+</ul>
+    </div>
+    <div><ul type="none">
+      <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/mail.svg" width="30px" height="30px"></li>
+      <li><p> CONTACT</p></li>
+      <li><p> contact@nuuk.com</p></li>
+      <li><p>info@nuuk.com</p></li>
+    </ul></div>
+    <div><ul type="none">
+      <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/clock.svg" width="30px" height="30px"></li>
+      <li><p>OPENING TIMES</p></li>
+      <li><p>Mon - Sat 8:00 - 17:30, Sunday - Closed</p></li>
+      <li><p style="cursor: pointer; color: white;" class="nav-link">FIND ON MAP</p></li>
+    </ul></div>
+  </div>
+</div>
+<div>
+  <div><h1 style="color: ghostwhite; font-size: 100px;">SERVICES</h1></div>
+  <div class="h2"><h1>OUR SPECIALIZATION</h1></div>
+  <div class="custom"><a href="#" class="nav-link" style="color: gray;">VIEW ALL SERVICES</a></div>
+  <div class="tools">
+    <div>
+      <ul type="none"><li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/brickwall.svg" width="55px" height="55px"></li>
+           <li><h3> RENOVATION</h3></li>
+           <li><p style="color: grey; font-size: 20px;" > Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi iste perferendis magnam alias, beatae quo quod voluptatum delectus, necessitatibus nisi, corporis dicta porro cumque labore. Laboriosam ipsum facilis tempore est.</p></li><br>
+           <li><a href="#" style="color: gray; text-decoration: none;"class="nav-link">LEARN MORE</a></li>
+           </ul>
+         </div>
+         <div>
+          <ul type="none"><li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/set-square.svg" width="55px" height="55px"></li>
+               <li><h3>ARCHITECTURE</h3></li>
+               <li><p style="color: grey; font-size: 20px;"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi iste perferendis magnam alias, beatae quo quod voluptatum delectus, necessitatibus nisi, corporis dicta porro cumque labore. Laboriosam ipsum facilis tempore est.</p></li><br>
+               <li><a href="#" style="color: gray; text-decoration: none;" class="nav-link">LEARN MORE</a></li>
+               </ul>
+             </div>
+             <div>
+              <ul type="none"><li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/toolbox.svg" width="55px" height="55px"></li>
+                   <li><h3>CONSTRUCTION</h3></li>
+                   <li><p style="color: grey; font-size: 20px;"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi iste perferendis magnam alias, beatae quo quod voluptatum delectus, necessitatibus nisi, corporis dicta porro cumque labore. Laboriosam ipsum facilis tempore est.</p></li><br>
+                   <li><a href="#" style="color: gray; text-decoration: none;" class="nav-link">LEARN MORE</a></li>
+                   </ul>
+                 </div>
+                 <div>
+                  <ul type="none"><li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/paint-roller.svg" width="55px" height="55px"></li>
+                       <li><h3>FINANCIAL RESULTS</h3></li>
+                       <li><p style="color: grey; font-size: 20px;"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi iste perferendis magnam alias, beatae quo quod voluptatum delectus, necessitatibus nisi, corporis dicta porro cumque labore. Laboriosam ipsum facilis tempore est.</p></li><br>
+                       <li><a href="#" style="color: gray; text-decoration: none;" class="nav-link">LEARN MORE</a></li>
+                       </ul>
+                     </div>
+  </div>
+</div>
+<div>
+ <div><h1 style="color: ghostwhite; font-size: 100px; margin-left: 900px;">ABOUT</h1></div> 
+ <div class="w2"><h1> WHO WE ARE</h1>
+<p style="color: gray; font-size: 20px;">Based on collective work and shared knowledge, Nuuk<br> aims to favor dialogue and debate, to transform<br> individual knowledge into increased creative potential.<br><br>
+
+  Our studio is a architecture practice based in NY and<br> Paris. Today, it includes 150 architects, urban planners,<br> landscape and interior designers of 25 different<br> nationalities. The company principle of Architecture-<br>Studio is the collective conception. From the very<br> beginning, the practice has believed in the virtues of<br> exchange, crossing ideas, common effort, shred<br> knowledge.<br><br><br>
+<a href="#" style="color: grey; text-decoration: none;">MEET THE TEAM</a>
+</p> </div>
+ <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/serv-1.jpg" width="525px" height="360px" style="margin-top: -410px; margin-left: 160px;">
+</div>
+<div class="experience">
+  <div>
+    <ul type="none">
+      <li><h1>170</h1></li>
+      <li><p>Employer with over 10 years of experience</p></li>
+    </ul>
+  </div>
+  <div>
+    <ul type="none">
+      <li><h1>10</h1></li>
+      <li><p>years experience in construction industries</p></li>
+    </ul>
+  </div>
+  <div>
+    <ul type="none">
+      <li><h1>690</h1></li>
+      <li><p>Residental premises completed in 2019</p></li>
+    </ul>
+  </div>
+  <div>
+    <ul type="none">
+      <li><h1>7.1</h1></li>
+      <li><p>Milion dollar value on investments</p></li>
+    </ul>
+  </div>
+</div>
+<div class="banner2">
+  <div><h1 style="color: ghostwhite; font-size: 100px;">PROJECTS</h1></div>
+  <div class="h2"><h1>OUR WORK</h1></div>
+  <div class="custom"><a href="#" class="nav-link" style="color: gray;">VIEW ALL WORKS</a></div>
+  <div class="images1">
+    <ul type="none">
+ <li> <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-1.jpg" width="450px" height="446px"></li>
+   <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-4.jpg" width="450px" height="446px"></li>
+  <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-3.jpg" width="450px" height="446px"></li>
+  </ul>
+</div>
+<div class="images2">
+<ul type="none">
+  <li> <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-6.jpg" width="450px" height="446px"></li>
+ <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-5.jpg" width="450px" height="446px"></li>
+  <li> <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/p-2.jpg" width="450px" height="446px"></li>
+  </ul>
+   </div>
+    <div class="together">
+      <div class="container">
+<h1 style="color: white; text-align: center; margin-top: 90px; font-size: 50px;"> LET'S MAKE SOMETHING GREAT TOGETHER</h1>
+<p style="color: white; text-align: center; font-size: 30px;"> Get in touch with us and send some basic info for a quick quote.</p>
+</div>
+    </div>
+    <div><h1 style="color: ghostwhite; font-size: 100px;">TEAM</h1></div>
+   <div class="h2" ><h1>PROFESSIONALS</h1></div>
+     <div class="custom"><a href="#" class="nav-link">ABOUT US</a></div>
+     <div class="photo">
+     <div class="card">
+     <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg" width="250px" height="300px">
+     <div class="matter" style="background-color: white; margin-top: -25px;">
+      <h3 style="padding-left: 30px; padding-top: 40px;">PHILIP BROWER</h3>
+      <p style="color: #919198; padding-left:30px; padding-bottom: 20px;">Managing Director</p>
+      <div class="icons1">
+        <ul>
+       <li><a href="https://www.facebook.com/"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png" width="30px" height="30px"></a></li><br>
+       <li><a href="https://twitter.com/?lang=en-in"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png" width="30px" height="30px"></a></li><br>
+      <li><a href="https://www.linkedin.com/login"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png" width="30px" height="30px"></a></li>
+    </ul>
+    </div>
+      </div>
+     </div>
+     <div class="card">
+      <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg" width="250px" height="300px">
+      <div class="matter" style="background-color: white; margin-top: -25px;">
+       <h3 style="padding-left: 30px; padding-top: 40px;">JOHN WICK</h3>
+       <p style="color: #919198; padding-left:30px ; padding-bottom: 20px;">Managing Director</p>
+       <div class="icons1">
+         <ul>
+        <li><a href="https://www.facebook.com/"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png" width="30px" height="30px"></a></li><br>
+        <li><a href="https://twitter.com/?lang=en-in"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png" width="30px" height="30px"></a></li><br>
+       <li><a href="https://www.linkedin.com/login"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png" width="30px" height="30px"></a></li>
+     </ul>
+     </div>
+       </div>
+      </div>
+      <div class="card">
+        <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg" width="250px" height="300px">
+        <div class="matter" style="background-color: white; margin-top: -25px;">
+         <h3 style="padding-left: 30px; padding-top: 40px;">JIMMY MCGILL</h3>
+         <p style="color: #919198; padding-left:30px ; padding-bottom: 20px;">Managing Director</p>
+         <div class="icons1">
+           <ul>
+          <li><a href="https://www.facebook.com/"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png" width="30px" height="30px"></a></li><br>
+          <li><a href="https://twitter.com/?lang=en-in"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png" width="30px" height="30px"></a></li><br>
+         <li><a href="https://www.linkedin.com/login"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png" width="30px" height="30px"></a></li>
+       </ul>
+       </div>
+         </div>
+        </div>
+        <div class="card">
+          <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg" width="250px" height="300px">
+          <div class="matter" style="background-color: white; margin-top: -25px;">
+           <h3 style="padding-left: 30px; padding-top: 40px;">SARA CONNER</h3>
+           <p style="color: #919198; padding-left:30px ; padding-bottom: 20px;">Managing Director</p>
+           <div class="icons1">
+             <ul>
+            <li><a href="https://www.facebook.com/"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png" width="30px" height="30px"></a></li><br>
+            <li><a href="https://twitter.com/?lang=en-in"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png" width="30px" height="30px"></a></li><br>
+           <li><a href="https://www.linkedin.com/login"><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png" width="30px" height="30px"></a></li>
+         </ul>
+         </div>
+           </div>
+          </div>    
+     </div> 
+     <div class="crds">
+      <div style="padding-top: 300px;">
+     <div> <h1 style="color: ghostwhite; font-size: 100px;">CLIENTS</h1></div>
+     <div class="h2"></div> <h1>TESTIMONALS</h1></div>
+     <div><p style="color: grey; font-size: 20px;">Aenean ut eros et nisl sagittis vestibulum. Fusce neque. Praesent<br> blandit laoreet nibh. Morbi mollis tellus ac sapien.
+ </p></div>
+ <div><a href="#" style="color: gray; text-decoration: none;" class="nav-link">OUR SERVICES</a></div></div>
+ <div class="crds1">
+ <div class="cards">
+  <div style="text-align: center;"><h3>SARA WILLIAM</h3>
+  <h3 style="color: gray;">CEO at Webflow</h3></div>
+  <p style="font-size: 20px; padding: 30px;">"Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet"
+</p>
+<div class="pause" style="padding-left: 100px; margin-top: -380px;">
+  <img src="https://cdn-icons-png.flaticon.com/128/190/190521.png" width="80px" height="80px">
+</div>
+ </div>
+ <div class="cards">
+ <div style="text-align: center;"> <h3>RAVEN DURGAN</h3>
+  <h3 style="color: gray;">Architect at Group</h3></div>
+  <p style="font-size: 20px; padding: 30px;">"Aliquam eu nunc. Cras dapibus. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl"
+</p>
+<div class="pause" style="padding-left: 100px; margin-top: -330px; ">
+  <img src="https://cdn-icons-png.flaticon.com/128/190/190521.png" width="80px" height="80px">
+</div>
+
+</div>
+ </div>
+ <div class="crds2">
+ <div class="cards" style="margin-left: 600px; margin-top: 60px;">
+  <div style="text-align: center;"> <h3>JOHN JUNIOR</h3>
+  <h3 style="color: gray;">Menager at Complexx</h3></div>
+  <p style="font-size: 20px; padding: 30px;">"Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Cras varius. Etiam sit amet orci eget eros faucibus tincidunt. Fusce a quam"
+</p>
+<div class="pause" style="padding-left: 100px; margin-top: -360px;">
+  <img src="https://cdn-icons-png.flaticon.com/128/190/190521.png" width="80px" height="80px">
+</div>
+
+ </div>&nbsp;
+ <div class="cards" style="margin-left: 1000px; margin-top: -360px;">
+  <div style="text-align: center;"><h3>SAMI TYPO</h3>
+  <h3 style="color: gray;">SEO at Balfin</h3></div>
+  <p style="font-size: 20px; padding: 30px;">"Vestibulum fringilla pede sit amet augue. Morbi ac felis. Ut a nisl id ante tempus hendrerit"
+</p>
+<div class="pause" style="padding-left: 100px; margin-top: -330px;">
+  <img src="https://cdn-icons-png.flaticon.com/128/190/190521.png" width="80px" height="80px">
+</div>
+
+ </div>
+ &nbsp;
+ </div>
+ </div> 
+</div>
+<div>
+  <div><h1 style="font-size: 100px; color: ghostwhite;">BLOG</h1></div>
+  <div class="h2"><h1>LATEST NEWS</h1></div>
+  <div class="custom"><a href="#" class="nav-link">VIEW BLOG</a></div>
+  <div class="ports">
+  <div class="port">
+      <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-1.jpg" width="460px" height="333px">
+  
+    <div class="blogpost">
+    <h1 style="color: white;  padding-top: 20px;">BLOGPOST 1</h1>
+    <p style="color: white; ">Service and providing potential clients and customers with testimonials is one of the best ways to market.</p>
+      <a href="#" class="nav-link" style="color:white;">READ MORE</a>
+    <div class="cal">
+    <ul>
+      <li><h1 style="background-color: #e47312; color: white;">17</h1></li>
+      <li><p style="color: grey;">OCT</p></li>
+    </ul>
+    </div>
+    </div>
+  </div>
+  <div class="port">
+    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-2.jpg" width="460px" height="333px">
+
+  <div class="blogpost">
+  <h1 style="color: white;  padding-top: 20px;">BLOGPOST 2</h1>
+  <p style="color: white; ">Service and providing potential clients and customers with testimonials is one of the best ways to market.</p>
+    <a href="#" class="nav-link" style="color:white;">READ MORE</a>
+  <div class="cal">
+  <ul>
+    <li><h1 style="background-color: #e47312; color: white;">11</h1></li>
+    <li><p style="color: grey;">DEC</p></li>
+  </ul>
+  </div>
+  </div>
+</div>
+<div class="port">
+  <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-3.jpg" width="460px" height="333px">
+
+<div class="blogpost">
+<h1 style="color: white;  padding-top: 20px;">BLOGPOST 3</h1>
+<p style="color: white;">Service and providing potential clients and customers with testimonials is one of the best ways to market.</p>
+  <a href="#" class="nav-link" style="color:white;">READ MORE</a>
+<div class="cal">
+<ul>
+  <li><h1 style="background-color: #e47312; color: white;">27</h1></li>
+  <li><p style="color: grey;">OCT</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="logos">
+  <ul>
+    <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-1w.png" width="120px" height="80px"></li>
+    <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-2w.png" width="120px" height="80px"></li>
+    <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-3w.png" width="120px" height="80px"></li>
+    <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-4w.png" width="120px" height="80px"></li>
+    <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-5w.png" width="120px" height="80px"></li>    
+</ul>
+</div>
+<div class="footer">
+  <div class="about">
+    <ul>
+      <li><h2>ABOUT NUUK</h2></li><br>
+     <li> <h3>Based on collective work and  shared knowledge, Nuuk aims to favor dialogue and debate, to transform individual knowledge into increased creative potential.</h3></li>
+     <li><a href="#" class="nav-link" style="color: white;">FIND ON MAP</a></li>
+    </ul>
+  </div>
+  <div class="Service">
+    <ul>
+      <li><h2>SERVICES</h2></li><br>
+      <li><h2>FINANCIAL RESULTS</h2></li>
+      <li><h2>CONSTRUCTION</h2></li>
+      <li><h2>ARCHITECTURE</h2></li>
+      <li><h2>RENOVATION</h2></li>
+
+    </ul>
+  </div>
+  <div class="contact">
+    <ul>
+      <li><h2 style="color: white;">CONTACT US</h2></li><br>
+      <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/phone.svg" width="30px" height="30px"><h2 style="color: white; padding-left: 50px; margin-top: -35px;">PHONE NUMBER</h2></li>
+      <li><p style="color: white; padding-left: 50px;">1-800-506-266</p></li>
+      <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/clock.svg" width="30px" height="30px"><h2 style="color: white; padding-left: 50px; margin-top: -35px;">OPENING TIMES</h2></li>
+      <li><p style="color: white; padding-left: 50px;">Mon - Sat 8:00 - 17:30, Sunday - Closed</p></li>
+      <li><img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/mail.svg" width="30px" height="30px"><h2 style="color: white; padding-left: 50px; margin-top: -35px;">CONTACT</h2></li>
+      <li><p style="color: white; padding-left: 50px;">contact@nuuk.com</p></li>
+
+    </ul>
+  </div>
+</div>
+</body>
+</html>
